@@ -1,11 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import Main from "./main/Main";
+import Skills from "./skills/Skills";
+import Projects from "./Projects/Projects";
+import Footer from "./footer/Footer";
+import Header from "./header/Header";
+import Contacts from "./contacts/Contacts";
+
 
 function App() {
   return (
-      <h1>test</h1>
+      <div className='App'>
+        <Header/>
+        <Main/>
+        <Skills/>
+        <Projects/>
+        <Contacts/>
+        <Footer/>
+      </div>
   );
 }
+
+
 
 export default App;
