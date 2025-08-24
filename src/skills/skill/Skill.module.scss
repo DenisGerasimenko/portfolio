@@ -3,11 +3,18 @@
 
 .skill {
   width: 250px;
+  height: 350px; /* Fixed height for uniform appearance */
   background-color: $bgSecondColor;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start; /* Changed from center to flex-start for consistent layout */
   align-items: center;
+  margin: 20px; /* Match Project component margin for consistent spacing */
+  box-sizing: border-box;
+  
+  @media screen and (max-width: 768px) {
+    margin: 10px; /* Smaller margin on mobile to match Projects */
+  }
 
   .imgWrap {
     width: 100px;
@@ -29,7 +36,11 @@
   }
 
   .skillInfo {
-    padding: 25px 20px;
+    padding: 25px 20px 30px 20px; /* Added bottom padding for better spacing */
+    flex: 1; /* Allow this section to grow and fill remaining space */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align content to top within this section */
 
     .skillTitle {
       font-family: 'Josefin Sans', sans-serif;

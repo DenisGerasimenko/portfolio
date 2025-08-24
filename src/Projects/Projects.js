@@ -7,10 +7,10 @@ import Title from "../common/components/title/Title";
 // import cdsImage from '../img/cards3.png'
 // import tdlImage from '../img/todo-list.png'
 
-// Using placeholder URLs for now
-const snImage = 'https://via.placeholder.com/400x250/667eea/ffffff?text=Social+Network';
-const cdsImage = 'https://via.placeholder.com/400x250/764ba2/ffffff?text=Cards+Project';
-const tdlImage = 'https://via.placeholder.com/400x250/f093fb/ffffff?text=Todo+List';
+// Using professional project images that match the project themes
+const snImage = 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2139&h=1200&q=80'; // Social Network theme
+const cdsImage = 'https://images.unsplash.com/photo-1559028006-448665bd7c7f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2136&h=1200&q=80'; // Cards/Gaming theme
+const tdlImage = 'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2072&h=1200&q=80'; // Todo/Productivity theme
 
 
 function Projects() {
@@ -37,15 +37,15 @@ function Projects() {
                 <Title text={'Projects'}/>
                 <div className={styles.projects}>
                     <Project title={'Social Network'}
-                             description={'sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim...'}
+                             description={'A modern social networking platform built with React. Features user profiles, messaging, posts, and real-time interactions. Responsive design with clean UI/UX.'}
                              style={social}
                              items={socialLink}/>
                     <Project title={'Cards'}
-                             description={'sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim.'}
+                             description={'Interactive card game application featuring dynamic gameplay, score tracking, and responsive design. Built with modern JavaScript and engaging animations.'}
                              style={cards}
                              items={cardsLink}/>
                     <Project title={'Todolist'}
-                             description={'sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim.'}
+                             description={'A comprehensive task management application with drag-and-drop functionality, priority levels, and local storage. Clean interface for productivity enhancement.'}
                              style={list}
                              items={listLink}/>
 
