@@ -1,7 +1,11 @@
 import React from 'react';
 import styles from './Footer.module.scss';
 import Title from '../common/components/title/Title';
-import linkedinIcon from '../img/linkedin.svg'
+// Placeholder social media icon - replace with your actual SVG icon
+// import linkedinIcon from '../img/linkedin.svg'
+
+// Using placeholder icon URL for now
+const linkedinIcon = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg';
 
 function Footer() {
     return (

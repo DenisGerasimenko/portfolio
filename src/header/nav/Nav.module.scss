@@ -3,7 +3,12 @@
 
 .nav {
   width: 340px;
+  max-width: 100%;
   @include flex(row, space-between, stretch, nowrap);
+  
+  @media screen and (max-width: 600px) {
+    width: 280px;
+  }
 
   a {
     @include text($titleFontFamily, 16px, 1.2, 400);

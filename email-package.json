@@ -1,0 +1,18 @@
+{
+  \"name\": \"portfolio-email-server\",
+  \"version\": \"1.0.0\",
+  \"description\": \"Email server for portfolio contact form\",
+  \"main\": \"email-server.js\",
+  \"scripts\": {
+    \"start\": \"node email-server.js\",
+    \"dev\": \"nodemon email-server.js\"
+  },
+  \"dependencies\": {
+    \"express\": \"^4.18.2\",
+    \"nodemailer\": \"^6.9.0\",
+    \"cors\": \"^2.8.5\"
+  },
+  \"devDependencies\": {
+    \"nodemon\": \"^3.0.0\"
+  }
+}

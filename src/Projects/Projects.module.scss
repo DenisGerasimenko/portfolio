@@ -3,7 +3,11 @@
 
 .projectsBlock {
   background-color: $bgColor;
-  padding: 100px;
+  padding: 100px 20px; /* Reduced horizontal padding */
+  
+  @media screen and (max-width: 768px) {
+    padding: 50px 10px; /* Even smaller padding on mobile */
+  }
 
   .container {
     @include flex(column,flex-start,center,nowrap);

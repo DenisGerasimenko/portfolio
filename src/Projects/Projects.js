@@ -1,10 +1,16 @@
 import React from 'react';
 import styles from './Projects.module.scss';
 import Project from "./Project/Project";
-import snImage from '../img/social-network2.jpg'
-import cdsImage from '../img/cards3.png'
-import tdlImage from '../img/todo-list.png'
 import Title from "../common/components/title/Title";
+// Placeholder images - replace with your actual project images
+// import snImage from '../img/social-network2.jpg'
+// import cdsImage from '../img/cards3.png'
+// import tdlImage from '../img/todo-list.png'
+
+// Using placeholder URLs for now
+const snImage = 'https://via.placeholder.com/400x250/667eea/ffffff?text=Social+Network';
+const cdsImage = 'https://via.placeholder.com/400x250/764ba2/ffffff?text=Cards+Project';
+const tdlImage = 'https://via.placeholder.com/400x250/f093fb/ffffff?text=Todo+List';
 
 
 function Projects() {

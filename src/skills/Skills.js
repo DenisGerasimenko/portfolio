@@ -1,10 +1,16 @@
 import React from 'react';
 import styles from './Skills.module.scss';
 import Skill from "./skill/Skill";
-import jsImage from '../img/js-file.svg'
-import reactImage from '../img/react.svg'
-import htmlImage from '../img/html.svg'
 import Title from "../common/components/title/Title";
+// Placeholder skill icons - replace with your actual SVG icons
+// import jsImage from '../img/js-file.svg'
+// import reactImage from '../img/react.svg'
+// import htmlImage from '../img/html.svg'
+
+// Using placeholder icon URLs for now
+const jsImage = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg';
+const reactImage = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg';
+const htmlImage = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg';
 
 
 function Skills() {

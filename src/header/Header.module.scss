@@ -9,6 +9,12 @@
   background-color: $bgColor;
   position: fixed;
   z-index: 9999;
-  left:0;
+  left: 0;
   right: 0;
+  width: 100%;
+  box-sizing: border-box;
+  
+  @media screen and (max-width: 768px) {
+    padding: 0 15px; /* Reduced padding on smaller screens */
+  }
 }

@@ -82,9 +82,11 @@
         height: 400px;
         width: 300px;
         @include bgSettings();
-        background-image: url('../img/IMG-cc6fce77d19c2c7cdaacc19191b9f671-V.jpg');
+        // Placeholder background - replace with your photo
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        // background-image: url('../img/your-photo.jpg');
         background-position: 80% 0;
-        @media screen and(max-width: 600px) {
+        @media screen and (max-width: 600px) {
           height: 360px;
           width: 260px;
           transition: .5s;
