@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Denis Portfolio",
+  "name": "Denis Gerasimenko | Frontend Developer Portfolio",
+  "description": "Portfolio of frontend developer Denis Gerasimenko featuring React, TypeScript, and modern web development projects.",
   "icons": [
     {
       "src": "favicon.ico",
